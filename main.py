@@ -10,9 +10,12 @@ def even_list(int_list: List[int]) -> List[int]:
 
 
 def sum_of_squares_of_even(even_int_list: List[int]) -> int:
+    total = 0
 
+    for num in even_int_list:
+        total += num ** 2
 
-    pass
+    return total
 
 
 
